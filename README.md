@@ -3,9 +3,9 @@
 <br>
 
 ## About
-This program implements state space search in order to find a route between any two cities (nodes). <br>
-On completion, the program will output the length of the route, all cities (nodes) along that route, <br>
-and the total number of nodes expanded and generated.
+This program implements (informed and uninformed) state space search in order to find a route between <br>
+any two cities (nodes). On completion, the program will output the length of the route, all cities (nodes) <br> 
+along that route, and the total number of nodes expanded and generated.
 
 <br>
 
@@ -66,5 +66,4 @@ Route:
 
 <br>
 
-> [!NOTE]
-> This program is a modification of an assignment for UTA's CSE 4308 Artificial Intelligence.
+<sub>This program is a modification of an assignment for UTA's CSE 4308 Artificial Intelligence.</sub>
