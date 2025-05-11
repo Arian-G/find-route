@@ -7,7 +7,12 @@ This program implements state space search in order to find a route between any 
 On completion, the program will output the length of the route, all cities (nodes) along that route, <br>
 and the total number of nodes expanded and generated.
 
+<br>
+
 ![Graph](misc/example_input.png)
+<sub>Graph representation of an example input.</sub>
+
+<br>
 
 The input files are stored as .txt files in `/src`; e.g., the graph above would have the follwing representation:
 ```
