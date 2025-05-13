@@ -55,8 +55,8 @@ Route:
 <br>
 
 ## Usages
-- Use `python find_route.py <input_filename> <origin_city> <destination_city>` to run uninformed search.
-- Use `python find_route.py <input_filename> <origin_city> <destination_city> <heuristic_filename>` to run informed search.
+- Use `python find_route.py input origin destination` to run uninformed search.
+- Use `python find_route.py input origin destination [heuristic]` to run informed search.
 - Use `python find_route_test.py` to unit test the program.
 
 <br>
