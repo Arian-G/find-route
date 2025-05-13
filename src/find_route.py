@@ -43,8 +43,6 @@ def process_input(args):
         exit()
 
     for line in filename:
-        if "END OF INPUT" in line:
-            break
         items = line.split()
         # Create two entries (since input is bi-directional) with  
         # their successor information and add them to a list.
@@ -72,10 +70,7 @@ def process_input(args):
             exit()
 
         for line in heuristic_filename:
-            if "END OF INPUT" in line:
-                break
             items = line.split()
-
             # Create a list with the node name and hueristic.
             #       Node( Name,    Heuristic )
             #       Node( Luebeck, 300       )
